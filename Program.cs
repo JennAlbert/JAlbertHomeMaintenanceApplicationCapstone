@@ -3,6 +3,8 @@ using Auth0.AspNetCore.Authentication;
 using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Newtonsoft.Json.Linq;
+using static System.Net.WebRequestMethods;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services
@@ -14,8 +16,7 @@ builder.Services
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
-
-   .AddInteractiveServerComponents();
+    .AddInteractiveServerComponents();
 
 var app = builder.Build();
 
