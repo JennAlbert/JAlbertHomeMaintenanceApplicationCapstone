@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwCAAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-22T22:04:31.644Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "UserChores.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T21:45:27.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T21:45:27.893Z"
             },
             {
               "$type": "Document",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T18:04:21.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T18:04:21.902Z"
             }
           ]
         }
