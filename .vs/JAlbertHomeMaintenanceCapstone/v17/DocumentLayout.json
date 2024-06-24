@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|c:\\users\\jenni\\onedrive\\desktop\\jalberthomemaintenancecapstone\\userchores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|solutionrelative:userchores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|c:\\users\\jenni\\onedrive\\desktop\\jalberthomemaintenancecapstone\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|c:\\users\\jenni\\onedrive\\desktop\\jalberthomemaintenancecapstone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|c:\\users\\jenni\\onedrive\\desktop\\jalberthomemaintenancecapstone\\userchores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|solutionrelative:userchores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|c:\\users\\jenni\\onedrive\\desktop\\jalberthomemaintenancecapstone\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -30,32 +30,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAkwCAAAAADAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAIwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-22T22:04:31.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UserChores.cs",
               "DocumentMoniker": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\UserChores.cs",
               "RelativeDocumentMoniker": "UserChores.cs",
               "ToolTip": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\UserChores.cs",
               "RelativeToolTip": "UserChores.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T21:45:27.893Z"
+              "WhenOpened": "2024-06-22T21:45:27.893Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -83,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
