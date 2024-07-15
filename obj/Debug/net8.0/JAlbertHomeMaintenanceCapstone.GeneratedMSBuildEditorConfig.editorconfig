@@ -26,8 +26,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jenni/OneDrive/Desktop/JAlbertHomeMaintenanceCapstone/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+[C:/Users/jenni/OneDrive/Desktop/JAlbertHomeMaintenanceCapstone/Components/Pages/Chore Form.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDaG9yZSBGb3JtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jenni/OneDrive/Desktop/JAlbertHomeMaintenanceCapstone/Components/Pages/Error.razor]
@@ -40,10 +40,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/jenni/OneDrive/Desktop/JAlbertHomeMaintenanceCapstone/Components/Pages/Household Maintenance List.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb3VzZWhvbGQgTWFpbnRlbmFuY2UgTGlzdC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/jenni/OneDrive/Desktop/JAlbertHomeMaintenanceCapstone/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jenni/OneDrive/Desktop/JAlbertHomeMaintenanceCapstone/Components/Routes.razor]

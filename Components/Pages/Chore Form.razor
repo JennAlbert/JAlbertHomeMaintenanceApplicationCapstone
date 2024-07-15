@@ -1,0 +1,56 @@
+﻿@page "/AddTasks"
+@inject IJSRuntime JS
+
+<PageTitle>Add Tasks</PageTitle>
+
+	<h3>Chore Form</h3>
+
+	<h3>Please enter a chore below.</h3>
+
+	<body>
+		<form action="/HouseholdMaintenanceList">
+			<label for="addtask">Add a Task</label>
+			<input type="text" id="addtask" name="addtask"><br><br>
+			<br><br>
+
+			<label for="difficulty">Select chore difficulty</label>
+			<br><br>
+			<select name="difficulty" id="difficulty">
+				<option value="low">Low</option>
+				<option value="medium">Medium</option>
+				<option value="high">High</option>
+			</select>
+			<br><br>
+			<br><br>
+
+			<label for="time spent">Enter the time spent doing the chore</label>
+			<br><br>
+			<div class="timeslider">
+				<input type="range" min="5" max="60" value="30" class="slider" id="timeSpent">
+			</div>
+
+			<br><br>
+			<br><br>
+
+			<label for="supplies">Enter any supplies needed for the chore</label>
+			<br><br>
+	<textarea id="supplies" name="suppliesforchores" rows="5" cols="50">
+
+	</textarea>
+			<br> <br>
+			<br><br>
+
+
+			<h3>Please select your residence type below.</h3>
+			<input type="radio" id="homeresidencetype" name="homeresidence" value="House" />
+			<label for="homeresidence">House</label><br><br>
+			<input type="radio" id="apartmentresidencetype" name="homeresidence" value="Apartment" />
+			<label for="homeresidence">Apartment</label><br><br>
+
+			<input type="submit" value="Submit">
+		</form>
+
+	</body>
+
+
+
