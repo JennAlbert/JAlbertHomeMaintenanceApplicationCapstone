@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-21T19:45:38.19Z",
               "EditorCaption": ""
@@ -48,15 +48,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "JAlbertHomeMaintenanceCapstone",
+              "Title": "JAlbertHomeMaintenanceCapstone.csproj",
               "DocumentMoniker": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\JAlbertHomeMaintenanceCapstone.csproj",
               "RelativeDocumentMoniker": "JAlbertHomeMaintenanceCapstone.csproj",
               "ToolTip": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\JAlbertHomeMaintenanceCapstone.csproj",
               "RelativeToolTip": "JAlbertHomeMaintenanceCapstone.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-21T19:39:01.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T19:39:01.498Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Components\\Pages\\Household Maintenance List.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-21T19:30:53.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T19:30:53.724Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "Components\\Pages\\Chore Form.razor",
               "ViewState": "AQIAAB0AAAAAAAAAAAAswC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-20T21:44:28.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T21:44:28.525Z"
             }
           ]
         }
