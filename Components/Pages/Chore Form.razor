@@ -8,7 +8,7 @@
 	<h3>Please enter a chore below.</h3>
 
 	<body>
-		<EditForm Models ="@newuserChore" OnValidSubmit="SubmitForm">
+		<EditForm Model ="@newuserChore" OnValidSubmit="SubmitForm">
 			<label for="addtask">Add a Task</label>
 			<InputText @bind-Value="@newuserChore.Name"/>
 			<br><br>
@@ -17,13 +17,13 @@
 			<label for="time spent">Enter the time spent doing the chore</label>
 			<br><br>
 		 <InputSelect @bind-Value = "@newuserChore.TimeSpent">
-			 <option value= "5 minutes"/>
-			 <option value= "10 minutes"/>
-			 <option value= "15 minutes"/>
-			<option value="20 minutes" />
-			<option value="30 minutes" />
-			<option value="45 minutes" />
-			<option value="60 minutes" />
+			 <option value = "5 minutes">5 minutes</option>
+			 <option value= "10 minutes">10 minutes</option>
+			 <option value= "15 minutes">15 minutes</option>
+			<option value="20 minutes">20 minutes</option>
+			<option value="30 minutes">30 minutes</option>
+			<option value="45 minutes">45 minutes</option>
+			<option value="60 minutes">60 minutes</option>
 		 </InputSelect>
 
 			<br><br>
