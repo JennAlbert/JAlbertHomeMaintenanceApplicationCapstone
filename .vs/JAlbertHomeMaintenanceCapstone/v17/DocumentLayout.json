@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|c:\\users\\jenni\\onedrive\\desktop\\jalberthomemaintenancecapstone\\components\\pages\\chore form.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|solutionrelative:components\\pages\\chore form.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|c:\\users\\jenni\\onedrive\\desktop\\jalberthomemaintenancecapstone\\models\\userchore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|solutionrelative:models\\userchore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserChore.cs",
+              "DocumentMoniker": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Models\\UserChore.cs",
+              "RelativeDocumentMoniker": "Models\\UserChore.cs",
+              "ToolTip": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Models\\UserChore.cs",
+              "RelativeToolTip": "Models\\UserChore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T21:53:56.347Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +41,9 @@
               "RelativeDocumentMoniker": "Components\\Pages\\Chore Form.razor",
               "ToolTip": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Components\\Pages\\Chore Form.razor",
               "RelativeToolTip": "Components\\Pages\\Chore Form.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-15T19:18:34.182Z",
+              "WhenOpened": "2024-07-20T21:44:28.525Z",
               "EditorCaption": ""
             }
           ]

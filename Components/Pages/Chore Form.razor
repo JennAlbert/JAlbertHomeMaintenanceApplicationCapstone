@@ -8,35 +8,32 @@
 	<h3>Please enter a chore below.</h3>
 
 	<body>
-		<form action="/HouseholdMaintenanceList">
+		<EditForm Models ="@newuserChore" OnValidSubmit="SubmitForm">
 			<label for="addtask">Add a Task</label>
-			<input type="text" id="addtask" name="addtask"><br><br>
+			<InputText @bind-Value="@newuserChore.Name"/>
 			<br><br>
 
-			<label for="difficulty">Select chore difficulty</label>
-			<br><br>
-			<select name="difficulty" id="difficulty">
-				<option value="low">Low</option>
-				<option value="medium">Medium</option>
-				<option value="high">High</option>
-			</select>
-			<br><br>
-			<br><br>
 
 			<label for="time spent">Enter the time spent doing the chore</label>
 			<br><br>
-			<div class="timeslider">
-				<input type="range" min="5" max="60" value="30" class="slider" id="timeSpent">
-			</div>
+		 <InputSelect @bind-Value = "@newuserChore.TimeSpent">
+			 <option value= "5 minutes"/>
+			 <option value= "10 minutes"/>
+			 <option value= "15 minutes"/>
+			<option value="20 minutes" />
+			<option value="30 minutes" />
+			<option value="45 minutes" />
+			<option value="60 minutes" />
+		 </InputSelect>
 
 			<br><br>
 			<br><br>
 
 			<label for="supplies">Enter any supplies needed for the chore</label>
 			<br><br>
-	<textarea id="supplies" name="suppliesforchores" rows="5" cols="50">
+			<InputTextArea @bind-Value = "@newuserChore.Supply" rows="5" cols="50">
 
-	</textarea>
+	</InputTextArea>
 			<br> <br>
 			<br><br>
 
@@ -48,9 +45,22 @@
 			<label for="homeresidence">Apartment</label><br><br>
 
 			<input type="submit" value="Submit">
-		</form>
+		</EditForm>
 
-	</body>
+</body>
+
+
+@code{
+
+	public UserChores newuserChore = new UserChores();
+	private async Task SubmitForm()
+	{
+		
+	}
+
+		}
+
+
 
 
 

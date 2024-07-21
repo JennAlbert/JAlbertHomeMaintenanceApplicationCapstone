@@ -18,6 +18,7 @@ namespace JAlbertHomeMaintenanceCapstone
         public string ResidenceType { get; set; }
 
     }
+
 }
 
 
