@@ -21,6 +21,18 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\wwwroot\\images\\check_11796921.png",
+      "PackagePath": "staticwebassets\\images\\check_11796921.png"
+    },
+    {
+      "Id": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\wwwroot\\images\\data_856656.png",
+      "PackagePath": "staticwebassets\\images\\data_856656.png"
+    },
+    {
+      "Id": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\wwwroot\\images\\schedule_2655048.png",
+      "PackagePath": "staticwebassets\\images\\schedule_2655048.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.JAlbertHomeMaintenanceCapstone.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

@@ -37,12 +37,14 @@
 			<br> <br>
 			<br><br>
 
-
 			<h3>Please select your residence type below.</h3>
-			<input type="radio" id="homeresidencetype" name="homeresidence" value="House" />
-			<label for="homeresidence">House</label><br><br>
-			<input type="radio" id="apartmentresidencetype" name="homeresidence" value="Apartment" />
-			<label for="homeresidence">Apartment</label><br><br>
+			<br><br>
+		<InputSelect @bind-Value = "@newuserChore.ResidenceType">
+			<option value="Apartment">Apartment</option>
+			<option value="House">House</option>
+		</InputSelect>
+		<br> <br>
+		<br><br>
 
 			<input type="submit" value="Submit">
 		</EditForm>
