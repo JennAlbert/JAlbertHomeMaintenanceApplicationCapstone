@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Components\Pages\UserChores.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Auth0.AspNetCore.Authentication" Version="1.4.1" />
     <PackageReference Include="Auth0.Core" Version="7.26.2" />
     <PackageReference Include="ICSharpCode.Decompiler" Version="8.2.0.7535" />
@@ -22,6 +26,18 @@
 
   <ItemGroup>
     <Folder Include="Models\Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Components\Pages\UserChores.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Components\Pages\UserChores.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Components\Pages\UserChores.razor" />
   </ItemGroup>
 
 </Project>
