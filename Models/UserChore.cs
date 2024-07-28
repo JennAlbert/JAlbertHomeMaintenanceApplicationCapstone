@@ -7,6 +7,7 @@
 		public string Supply { get; set; }
 		public string Repeat { get; set; }
 		public int TimeSpent { get; set; }
+		public string EmailAddress { get; set; }
 		public string ResidenceType { get; set; }
 	}
 }

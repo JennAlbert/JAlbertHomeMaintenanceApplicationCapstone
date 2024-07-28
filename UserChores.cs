@@ -11,6 +11,7 @@ namespace JAlbertHomeMaintenanceCapstone
 {
     public class UserChores
     {
+        public int Id { get; set; }
         public string Name {  get; set; }
         public string Supply {  get; set; }
         public string Repeat {  get; set; }
@@ -18,7 +19,5 @@ namespace JAlbertHomeMaintenanceCapstone
         public string ResidenceType { get; set; }
 
     }
-   
-}
-
-
+	
+	}
