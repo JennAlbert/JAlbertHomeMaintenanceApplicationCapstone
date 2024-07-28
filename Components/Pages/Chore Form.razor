@@ -5,11 +5,16 @@
 
 	<h3>Chore Form</h3>
 
-	<h3>Please enter a chore below.</h3>
-
 	<body>
 		<EditForm Model ="@newuserChore" OnValidSubmit="SubmitForm">
-			<label for="addtask">Add a Task</label>
+			<br><br>
+			<label for="addemail">Enter Your Email Address</label>
+			<br><br>
+			<InputText @bind-Value="@newuserChore.EmailAddress"/>
+			<br><br>
+
+			<label for="addtask">Enter the name of the chore</label>
+			<br><br>
 			<InputText @bind-Value="@newuserChore.Name"/>
 			<br><br>
 
@@ -28,6 +33,19 @@
 
 			<br><br>
 			<br><br>
+
+			<label for="task repeat">How often do you do the chore?</label>
+			<br><br>
+
+		 <InputSelect @bind-Value = "@newuserChore.Repeat">
+			 <option value = "Daily">Daily</option>
+			 <option value= "Weekly">Weekly</option>
+			 <option value= "Monthly">Monthly</option>
+			<option value="Annually">Annually</option>
+			</InputSelect>
+
+		<br><br>
+		<br><br>
 
 			<label for="supplies">Enter any supplies needed for the chore</label>
 			<br><br>

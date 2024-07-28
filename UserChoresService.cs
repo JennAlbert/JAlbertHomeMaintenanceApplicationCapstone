@@ -1,8 +1,8 @@
 ﻿namespace JAlbertHomeMaintenanceCapstone
 {
-	public class UserChoresService
+	public static class UserChoresService
 	{
-		public List<UserChores> GetUserChores()
+		public static List<UserChores> GetUserChores()
 		{
 			return new List<UserChores>
 			{
