@@ -2,11 +2,11 @@
 {
 	public static class UserChoresService
 	{
-		public static List<UserChores> GetUserChores()
+		public static List<UserChore> GetUserChores()
 		{
-			return new List<UserChores>
+			return new List<UserChore>
 			{
-				new UserChores
+				new UserChore
 				{
 					Id = 1,
 					Name = "Clean the Oven",
@@ -14,7 +14,7 @@
 					Repeat = "Annually",
 					ResidenceType = "Apartment",
 				},
-				new UserChores
+				new UserChore
 				{
 					Id = 2,
 					Name = "Clean the Fridge",
@@ -22,7 +22,7 @@
 					Repeat = "Annually",
 					ResidenceType = "Apartment"
 				},
-				new UserChores
+				new UserChore
 				{
 					Id = 3,
 					Name = "Wash the windows",
@@ -30,7 +30,7 @@
 					Repeat = "Annually",
 					ResidenceType = "Apartment"
 				},
-				new UserChores
+				new UserChore
 				{
 					Id = 4,
 					Name = "Clean the light fixtures/fans",
@@ -38,7 +38,7 @@
 					Repeat = "Monthly",
 					ResidenceType = "Apartment"
 				},
-				new UserChores
+				new UserChore
 				{
 					Id = 5,
 					Name = "Shampoo the carpet",
@@ -46,7 +46,7 @@
 					Repeat = "Annually",
 					ResidenceType = "Apartment"
 				},
-				new UserChores
+				new UserChore
 				{
 					Id = 6,
 					Name = "Clean the windows/shades/curtains",
@@ -54,7 +54,7 @@
 					Repeat = "Annually",
 					ResidenceType = "House"
 				},
-				new UserChores
+				new UserChore
 				{
 					Id = 7,
 					Name = "Clean the vents",
@@ -62,7 +62,7 @@
 					Repeat = "Annually",
 					ResidenceType = "House"
 				},
-				new UserChores
+				new UserChore
 				{
 					Id = 8,
 					Name = "Clean the attic/basement",
@@ -70,7 +70,7 @@
 					Repeat = "Monthly",
 					ResidenceType = "House"
 				},
-				new UserChores
+				new UserChore
 				{
 					Id = 9,
 					Name = "Spot clean the furniture",
@@ -78,7 +78,7 @@
 					Repeat = "Monthly",
 					ResidenceType = "House"
 				},
-				new UserChores
+				new UserChore
 				{
 					Id = 10,
 					Name = "Trim trees/bushes/plants in both yards",

@@ -9,7 +9,8 @@ using MiNET.Worlds;
 
 namespace JAlbertHomeMaintenanceCapstone
 {
-    public class UserChores
+    public class UserChore
+
     {
         public int Id { get; set; }
         public string Name {  get; set; }

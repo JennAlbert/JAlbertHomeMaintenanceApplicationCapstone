@@ -1,4 +1,6 @@
 ﻿@page "/HouseholdMaintenanceList"
+@using JAlbertHomeMaintenanceCapstone.Models
+@using JAlbertHomeMaintenanceCapstone
 @inject IJSRuntime JS
 @inject NavigationManager UrlHelper
 
@@ -8,17 +10,43 @@
 <h3>Home Maintenance Task List</h3>
 
 
-
-
-
 <br><br>
 <br><br>
 <br><br>
 
 <h3>Additional Chores For Your Home</h3>
 @{
-	
+	<style>
+		table, th, td {border-block: 8px purple}
+	</style>
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th> Id</th>
+				<th> Name</th>
+				<th> Supply</th>
+				<th> Repeat</th>
+				<th> ResidenceType</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			@foreach (var chore in UserChoresService.GetUserChores())
+			{
+				<tr>
+				<td>@chore.Id</td>
+				<td>@chore.Name</td>
+				<td>@chore.Supply</td>
+				<td>@chore.Repeat</td>
+				<td>@chore.ResidenceType</td>
+				</tr>
+
+			}
+		</tbody>
+
+	</table>
+
+
+		}
 
 }
-
-
