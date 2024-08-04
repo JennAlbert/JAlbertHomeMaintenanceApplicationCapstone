@@ -7,24 +7,44 @@
 @using System.Diagnostics
 <h3>Assign Your Chore Buddy</h3>
 
-<p style=" border-width: 5px;border-style:dashed; border-color: darkmagenta;">Welcome! On this page you can use the button below to generate a random number. This number will be used to
+<p style=" border-width: 5px;border-style:dashed; border-color: darkmagenta;">Welcome! On this page upon load it will generate a random number. This number will be used to
 	assign you your chore buddy: a Pokemon. As adults, chores are generally really thankless. Kids get allowances,
 	stickers, or can earn points when they do their chores. There's nothing like that for adults.
 	My hope with this little addition is that you can enjoy the chores you've assigned for yourself because
 	your buddy will be with you every step of the way. Click the button to start your adventure!
 </p>
-<p>
-	<button @onclick="ButtonClick">Assign My Buddy</button>
-</p>
+@* <p>
+	<button @ondblclick="ButtonClick">Assign My Buddy</button>
+</p> *@
 
 	<br><br>
 	<br><br>
-	<p>Your buddy is Number:
-		<textarea id="Number" cols="6" @bind:after="myChoreBuddy.id"></textarea>
+	<p>Your buddy is:
+		<table class="table table-striped">
+			<thead>
+			<tr>
+				<th>Id</th>
+				<th>Name</th>
+				
+			</tr>
+			<tr>
+				<td>@myChoreBuddy.id</td>
+				<td>@myChoreBuddy.name</td>
+			</tr>
+	
+			</thead>
+		</table>
 	</p>
 
 	<br><br>
 	<br><br>
+<div>
+	<div class="text-center">
+		<img src="/images/pokeball-png-45332.png" />
+	</div>
+
+</div>
+
 
 @code{
 
@@ -42,7 +62,7 @@
 	{ 
 		var pokemonId = random.Next(1, 252);
 		var response = httpClient.GetFromJsonAsync<PokeAPIResponse>($"https://pokeapi.co/api/v2/pokemon/{pokemonId}").Result;
-		myChoreBuddy = new ChoreBuddy { id = response.id, name = response.name };
+		myChoreBuddy = new ChoreBuddy { id = response.id, name = response.name};
 	
 	}
 

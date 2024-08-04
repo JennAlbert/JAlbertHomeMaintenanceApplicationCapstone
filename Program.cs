@@ -7,6 +7,7 @@ using Newtonsoft.Json.Linq;
 using System.Net.Http.Json;
 using Syncfusion.Blazor;
 using static System.Net.WebRequestMethods;
+using JAlbertHomeMaintenanceCapstone.Models.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,7 +23,8 @@ builder.Services.AddScoped(sp => new HttpClient
 {
     BaseAddress = new Uri(" https://pokeapi.co/api/v2/pokemon/")
 });
-
+//added services for ChoreDbContext Database
+builder.Services.AddSingleton<ChoreDbContext>();
 
 var app = builder.Build();
 

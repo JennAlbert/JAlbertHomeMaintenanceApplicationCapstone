@@ -4,6 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>771bfbc2-5f71-48ef-95fd-1a9d7a65b158</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -24,10 +25,6 @@
     <PackageReference Include="MiNET" Version="1.0.2304" />
     <PackageReference Include="Syncfusion.Blazor.Buttons" Version="26.2.7" />
     <PackageReference Include="Syncfusion.Blazor.Themes" Version="26.2.7" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Models\Data\" />
   </ItemGroup>
 
   <ItemGroup>
