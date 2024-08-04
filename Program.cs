@@ -14,13 +14,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 //Added in PokeAPI to AddHttpClient
-builder.Services.AddHttpClient("PokeAPI", client => client.BaseAddress = new Uri(" https://pokeapi.co/api/v2/pokemon/{id or name}/"));
+builder.Services.AddHttpClient("PokeAPI", client => client.BaseAddress = new Uri(" https://pokeapi.co/api/v2/pokemon/"));
 //added in for the button on Assign Chore Buddy
 builder.Services.AddSyncfusionBlazor();
 //added in to call the PokeAPI for Pokemon Names
 builder.Services.AddScoped(sp => new HttpClient
 {
-    BaseAddress = new Uri(" https://pokeapi.co/api/v2/pokemon/{id or name}/")
+    BaseAddress = new Uri(" https://pokeapi.co/api/v2/pokemon/")
 });
 
 

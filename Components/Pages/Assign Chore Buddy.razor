@@ -1,4 +1,6 @@
 ﻿@page "/AssignBuddy"
+@using JAlbertHomeMaintenanceCapstone.API.PokeAPI
+@using JAlbertHomeMaintenanceCapstone.Models
 @using System
 @using System.Text
 @using System.Threading.Tasks
@@ -12,35 +14,36 @@
 	your buddy will be with you every step of the way. Click the button to start your adventure!
 </p>
 <p>
-	<SfButton @onclick="GetPokemonData">Assign My Buddy</SfButton>
+	<button @onclick="ButtonClick">Assign My Buddy</button>
 </p>
 
 	<br><br>
 	<br><br>
 	<p>Your buddy is Number:
-		<textarea id="Number" cols="6" @bind = "InputValue" @bind:after="UpdateRandomNumber"></textarea>
+		<textarea id="Number" cols="6" @bind:after="myChoreBuddy.id"></textarea>
 	</p>
+
 	<br><br>
 	<br><br>
+
 @code{
 
 	Random random = new Random();
-	public string InputValue { get; set; }
-	public string randomNumberValue = "";
-	private async Task UpdateRandomNumber()
-	{
-		await Task.Delay(2);
-		randomNumberValue = random.Next(1, 252).ToString();
-		InputValue = randomNumberValue;
-		return;
-	}
+	
 	public ChoreBuddy myChoreBuddy;
 
 	public HttpClient httpClient = new HttpClient();
-
-	public async Task GetPokemonData()
+	protected override void OnInitialized()
 	{
-		myChoreBuddy = await httpClient.GetFromJsonAsync<ChoreBuddy>(" https://pokeapi.co/api/v2/pokemon/{id or name}/");
+		base.OnInitialized();
+		ButtonClick(new MouseEventArgs());
+	}
+	public void ButtonClick(MouseEventArgs args)
+	{ 
+		var pokemonId = random.Next(1, 252);
+		var response = httpClient.GetFromJsonAsync<PokeAPIResponse>($"https://pokeapi.co/api/v2/pokemon/{pokemonId}").Result;
+		myChoreBuddy = new ChoreBuddy { id = response.id, name = response.name };
+	
 	}
 
 }
