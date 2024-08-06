@@ -1,5 +1,8 @@
 ﻿namespace JAlbertHomeMaintenanceCapstone
-{
+{//This class provides a list to the user of chores they may not have thought about. On the Home Maintenance
+	//List Razor Page they will see a table with the elements of this list in rows. Going forward I would like
+	//to provide the list where it only shows the chores based on ResidenceType if the user chooses Apartment
+	//or House on the Chore Form. 
 	public static class UserChoreService
 	{
 		public static List<UserChore> GetUserChores()

@@ -3,11 +3,10 @@
     "secrets1": {
       "type": "secrets.user"
     },
-    "mssql1": {
-      "serviceConnectorResourceId": "",
+    "sqlite1": {
       "secretStore": "LocalSecretsFile",
-      "type": "mssql.local",
-      "connectionId": "ConnectionStrings",
+      "type": "sqlite.local",
+      "connectionId": "ConnectionString",
       "dynamicId": null
     }
   }

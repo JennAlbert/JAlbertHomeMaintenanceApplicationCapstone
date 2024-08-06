@@ -10,10 +10,10 @@ namespace JAlbertHomeMaintenanceCapstone.Models.Data
 
 		public ChoreDbContext(IConfiguration configuration)
 		{
-		Configuration = configuration;
+			Configuration = configuration;
 
-	}
-	protected override void OnConfiguring(DbContextOptionsBuilder options)
+		}
+		protected override void OnConfiguring(DbContextOptionsBuilder options)
 		{
 			options.UseSqlServer(Configuration.GetConnectionString("ChoreDbConnectionString"));
 		}

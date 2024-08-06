@@ -8,7 +8,11 @@ using ICSharpCode.Decompiler.CSharp.Syntax.PatternMatching;
 using MiNET.Worlds;
 
 namespace JAlbertHomeMaintenanceCapstone
-{
+{//This class contains the properties for the variable UserChore used in the Chore Form Razor Page. 
+    //A UserChore is any chore the user will enter into the form with the intent of making their own
+    //chore list within the application. This class is made to be written to a database within the program.
+    //When the user navigates to the Household Maintenance List Razor page they should see records returned
+    //from the database that lists out their chores based on their email address. 
     public class UserChore
 
     {

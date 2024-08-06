@@ -1,5 +1,12 @@
-﻿namespace JAlbertHomeMaintenanceCapstone.Models
+﻿using Microsoft.EntityFrameworkCore;
+using ServiceStack.DataAnnotations;
+using SQLitePCL;
+using System;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace JAlbertHomeMaintenanceCapstone.Models
 {
+	[Table("UserChoreTable")]
 	public class UserChore
 	{
 		public int Id { get; set; }
