@@ -79,7 +79,7 @@
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -93,11 +93,15 @@
             },
             "Syncfusion.Blazor.Buttons": {
               "target": "Package",
-              "version": "[26.2.7, )"
+              "version": "[26.2.8, )"
             },
             "Syncfusion.Blazor.Themes": {
               "target": "Package",
-              "version": "[26.2.7, )"
+              "version": "[26.2.8, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.118, )"
             }
           },
           "imports": [

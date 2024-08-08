@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JAlbertHomeMaintenanceCapstone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e4387d8cd69a57377b6a270d4cfa92f31cae0e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6db1552ca897398097c6f7d00f763973e2dea64b")]
 [assembly: System.Reflection.AssemblyProductAttribute("JAlbertHomeMaintenanceCapstone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JAlbertHomeMaintenanceCapstone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
