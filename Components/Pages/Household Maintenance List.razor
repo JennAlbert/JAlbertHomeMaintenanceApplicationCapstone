@@ -2,17 +2,20 @@
 @using JAlbertHomeMaintenanceCapstone.Models
 @using JAlbertHomeMaintenanceCapstone
 @using System.Data.SQLite
+@using MiNET.Entities.Passive
 @inject IJSRuntime JS
 @inject NavigationManager UrlHelper
 
 
 <PageTitle>Household Maintenance List</PageTitle>
-@* <div>
+
+<div>
 	<div class="text-center">
 		<img src="/images/Pokemon/" myChoreBuddy.id ".png" />
 	</div>
 
-</div> *@
+</div> 
+
 <h3>Home Maintenance Task List</h3>
 
 	@{
@@ -32,9 +35,26 @@
 			</tr>
 		</thead>
 	</table>
-	string query = "SELECT * FROM UserChoreDB WHERE EmailAddress = jennifer.jalbert3@gmail.com";
-		
+
+
+		// 	<body>
+		//         @foreach(var chore in mychores)
+		//         {
+		// 			<tr>
+		// 				<td>@chore.Id</td>
+		// 				<td>@chore.Name</td>
+		// 				<td>@chore.Supply</td>
+		// 				<td>@chore.Repeat</td>
+		// 				<td>@chore.TimeSpent</td>
+		// 				<td>@chore.EmailAddress</td>
+		// 				<td>@chore.ResidenceType</td>
+		// 			</tr>
+
+			// 		}
+		// 	</body>
+
 }
+
 <br><br>
 <br><br>
 <br><br>
@@ -42,35 +62,40 @@
 
 
 <h3>Additional Chores For Your Home</h3>
-@{//Builds and displays a table on the page for each item in the UserChoreService List
-	<style>
-		table, th, td {border-block: 8px purple}
-	</style>
-	<table class="table table-bordered">
-		<thead>
-			<tr>
-				<th> Id</th>
-				<th> Name</th>
-				<th> Supply</th>
-				<th> Repeat</th>
-				<th> ResidenceType</th>
-			</tr>
-		</thead>
 
-		<tbody>
-			@foreach (var chore in UserChoreService.GetUserChores())
-			{
-				<tr>
-				<td>@chore.Id</td>
-				<td>@chore.Name</td>
-				<td>@chore.Supply</td>
-				<td>@chore.Repeat</td>
-				<td>@chore.ResidenceType</td>
-				</tr>
-
+	@{
+		//Builds and displays a table on the page for each item in the UserChoreService List
+		<style>
+			table, th, td {
+				border-block: 8px purple
 			}
-		</tbody>
+		</style>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th> Id</th>
+					<th> Name</th>
+					<th> Supply</th>
+					<th> Repeat</th>
+					<th> ResidenceType</th>
+				</tr>
+			</thead>
 
-	</table>
+			<tbody>
+				@foreach (var chore in UserChoreService.GetUserChores())
+				{
+					<tr>
+						<td>@chore.Id</td>
+						<td>@chore.Name</td>
+						<td>@chore.Supply</td>
+						<td>@chore.Repeat</td>
+						<td>@chore.ResidenceType</td>
+					</tr>
 
+				}
+			</tbody>
+
+		</table>
+	}
+	
 }

@@ -12,10 +12,7 @@
 	<body>
 		<EditForm Model ="@newuserChore" OnValidSubmit="SubmitForm">
 			<br><br>
-			<label for="addemail">Enter Your Email Address</label>
-			<br><br>
-			<InputText @bind-Value="@newuserChore.EmailAddress"/>
-			<br><br>
+
 
 			<label for="addtask">Enter the name of the chore</label>
 			<br><br>
@@ -26,13 +23,13 @@
 			<label for="time spent">Enter the time spent doing the chore</label>
 			<br><br>
 		 <InputSelect @bind-Value = "@newuserChore.TimeSpent">
-			 <option value = "5 minutes">5 minutes</option>
-			 <option value= "10 minutes">10 minutes</option>
-			 <option value= "15 minutes">15 minutes</option>
-			<option value="20 minutes">20 minutes</option>
-			<option value="30 minutes">30 minutes</option>
-			<option value="45 minutes">45 minutes</option>
-			<option value="60 minutes">60 minutes</option>
+			 <option value = "5">5 minutes</option>
+			 <option value= "10">10 minutes</option>
+			 <option value= "15">15 minutes</option>
+			<option value="20">20 minutes</option>
+			<option value="30">30 minutes</option>
+			<option value="45">45 minutes</option>
+			<option value="60">60 minutes</option>
 		 </InputSelect>
 
 			<br><br>
@@ -58,7 +55,10 @@
 	</InputTextArea>
 			<br> <br>
 			<br><br>
-
+		<label for="addemail">Enter Your Email Address</label>
+		<br><br>
+		<InputText @bind-Value="@newuserChore.EmailAddress" />
+		<br><br>
 			<h3>Please select your residence type below.</h3>
 			<br><br>
 		<InputSelect @bind-Value = "@newuserChore.ResidenceType">

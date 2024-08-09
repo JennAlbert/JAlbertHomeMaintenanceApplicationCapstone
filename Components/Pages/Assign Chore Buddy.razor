@@ -5,6 +5,8 @@
 @using System.Text
 @using System.Threading.Tasks
 @using System.Diagnostics
+@using System.Data.SQLite
+@using JAlbertHomeMaintenanceCapstone.Models.Data
 <h3>Assign Your Chore Buddy</h3>
 
 <p style=" border-width: 5px;border-style:dashed; border-color: darkmagenta;">Welcome! On this page upon load it will generate a random number. This number will be used to
@@ -49,7 +51,7 @@
 @code{
 
 	Random random = new Random();
-	
+
 	public ChoreBuddy myChoreBuddy;
 
 	public HttpClient httpClient = new HttpClient();
@@ -59,7 +61,28 @@
 		ButtonClick(new MouseEventArgs());
 	}
 	public void ButtonClick(MouseEventArgs args)
-	{ 
+	{
+		var choredbConnection = new SQLiteConnection("DataSource = C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Files\\UserChoreDB.db;Version=3;");
+		choredbConnection.Open();
+		SQLiteCommand sqlite_cmd = choredbConnection.CreateCommand();
+		sqlite_cmd.CommandText = "SELECT * FROM MyChores";
+		SQLiteDataReader reader;
+		reader = sqlite_cmd.ExecuteReader();
+		var chores = new List<UserChore>();
+		while (reader.Read())
+		{
+			var chore = new UserChore();
+
+			chore.Id = (long)reader["Id"];
+			chore.Name = reader["Name"].ToString();
+			chore.EmailAddress = reader["EmailAddress"].ToString();
+			chore.Repeat = reader["Repeat"].ToString();
+			chore.ResidenceType = reader["ResidenceType"].ToString();
+
+			chores.Add(chore);
+		}
+		
+
 		var pokemonId = random.Next(1, 252);
 		var response = httpClient.GetFromJsonAsync<PokeAPIResponse>($"https://pokeapi.co/api/v2/pokemon/{pokemonId}").Result;
 		myChoreBuddy = new ChoreBuddy { id = response.id, name = response.name};

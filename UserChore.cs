@@ -16,7 +16,7 @@ namespace JAlbertHomeMaintenanceCapstone
     public class UserChore
 
     {
-        public int Id { get; set; }
+        public long Id { get; set; }
         public string Name {  get; set; }
         public string EmailAddress { get; set; }
         public string Supply {  get; set; }

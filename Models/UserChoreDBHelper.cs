@@ -7,7 +7,7 @@ namespace JAlbertHomeMaintenanceCapstone.Models
 {
 	public static class UserChoreDBHelper
 	{
-		public static string userChoreDBConnectionString = @"DataSource = ..\..\Files\UserChoreDB.db;Version=3;";
+		public static string userChoreDBConnectionString = @"DataSource = C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Files\\UserChoreDB.db;Version=3;";
 
 	}
 }
