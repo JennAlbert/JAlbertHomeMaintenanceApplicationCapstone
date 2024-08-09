@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|c:\\users\\jenni\\onedrive\\desktop\\jalberthomemaintenancecapstone\\models\\userchoredbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|solutionrelative:models\\userchoredbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|c:\\users\\jenni\\onedrive\\desktop\\jalberthomemaintenancecapstone\\components\\pages\\household maintenance list.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|solutionrelative:components\\pages\\household maintenance list.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|c:\\users\\jenni\\onedrive\\desktop\\jalberthomemaintenancecapstone\\components\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|solutionrelative:components\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|c:\\users\\jenni\\onedrive\\desktop\\jalberthomemaintenancecapstone\\components\\pages\\chore form.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -13,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|c:\\users\\jenni\\onedrive\\desktop\\jalberthomemaintenancecapstone\\models\\userchoremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|solutionrelative:models\\userchoremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|c:\\users\\jenni\\onedrive\\desktop\\jalberthomemaintenancecapstone\\models\\data\\choredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA8C92A-A81B-4FFE-BEF5-627342039DB3}|JAlbertHomeMaintenanceCapstone.csproj|solutionrelative:models\\data\\choredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,38 +63,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserChoreDBHelper.cs",
-              "DocumentMoniker": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Models\\UserChoreDBHelper.cs",
-              "RelativeDocumentMoniker": "Models\\UserChoreDBHelper.cs",
-              "ToolTip": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Models\\UserChoreDBHelper.cs",
-              "RelativeToolTip": "Models\\UserChoreDBHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T00:43:43.294Z",
+              "Title": "Household Maintenance List.razor",
+              "DocumentMoniker": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Components\\Pages\\Household Maintenance List.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Household Maintenance List.razor",
+              "ToolTip": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Components\\Pages\\Household Maintenance List.razor",
+              "RelativeToolTip": "Components\\Pages\\Household Maintenance List.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T00:15:22.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Components\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Components\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Components\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Components\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T00:15:20.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChoreDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Models\\Data\\ChoreDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\Data\\ChoreDbContext.cs",
+              "ToolTip": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Models\\Data\\ChoreDbContext.cs",
+              "RelativeToolTip": "Models\\Data\\ChoreDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T23:18:43.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserChoreModel.cs",
               "DocumentMoniker": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Models\\UserChoreModel.cs",
               "RelativeDocumentMoniker": "Models\\UserChoreModel.cs",
               "ToolTip": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Models\\UserChoreModel.cs",
               "RelativeToolTip": "Models\\UserChoreModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T00:27:12.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Chore Form.razor",
               "DocumentMoniker": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Components\\Pages\\Chore Form.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Chore Form.razor",
               "ToolTip": "C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Components\\Pages\\Chore Form.razor",
               "RelativeToolTip": "Components\\Pages\\Chore Form.razor",
-              "ViewState": "AQIAADsAAAAAAAAAAAAqwE4AAAACAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAuwFEAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-08T00:25:13.907Z",
               "EditorCaption": ""

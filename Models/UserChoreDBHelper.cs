@@ -1,7 +1,13 @@
-﻿namespace JAlbertHomeMaintenanceCapstone.Models
+﻿using Microsoft.Identity.Client;
+using System.Data.SQLite;
+using System.IO;
+using JAlbertHomeMaintenanceCapstone;
+
+namespace JAlbertHomeMaintenanceCapstone.Models
 {
-	public class UserChoreDBHelper
+	public static class UserChoreDBHelper
 	{
+		public static string userChoreDBConnectionString = @"DataSource = ..\..\Files\UserChoreDB.db;Version=3;";
 
 	}
 }

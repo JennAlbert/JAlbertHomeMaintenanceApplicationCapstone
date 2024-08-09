@@ -13,9 +13,10 @@ namespace JAlbertHomeMaintenanceCapstone.Models.Data
 			Configuration = configuration;
 
 		}
-		protected override void OnConfiguring(DbContextOptionsBuilder options)
+		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
-			options.UseSqlServer(Configuration.GetConnectionString("ChoreDbConnectionString"));
+			optionsBuilder.UseSqlServer(Configuration.GetConnectionString("ChoreDbConnectionString"));
 		}
-	}
+
+    }
 }

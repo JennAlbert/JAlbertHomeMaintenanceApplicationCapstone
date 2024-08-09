@@ -1,6 +1,7 @@
 ﻿@page "/HouseholdMaintenanceList"
 @using JAlbertHomeMaintenanceCapstone.Models
 @using JAlbertHomeMaintenanceCapstone
+@using System.Data.SQLite
 @inject IJSRuntime JS
 @inject NavigationManager UrlHelper
 
@@ -14,13 +15,34 @@
 </div> *@
 <h3>Home Maintenance Task List</h3>
 
+	@{
+	<style>
+		table, th, td {border-block: 8px purple}
+	</style>
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th> Id</th>
+				<th> Name</th>
+				<th> Supply</th>
+				<th> Repeat</th>
+				<th>TimeSpent</th>
+				<th>EmailAddress</th>
+				<th> ResidenceType</th>
+			</tr>
+		</thead>
+	</table>
+	string query = "SELECT * FROM UserChoreDB WHERE EmailAddress = jennifer.jalbert3@gmail.com";
+		
+}
+<br><br>
+<br><br>
+<br><br>
 
-<br><br>
-<br><br>
-<br><br>
+
 
 <h3>Additional Chores For Your Home</h3>
-@{
+@{//Builds and displays a table on the page for each item in the UserChoreService List
 	<style>
 		table, th, td {border-block: 8px purple}
 	</style>
