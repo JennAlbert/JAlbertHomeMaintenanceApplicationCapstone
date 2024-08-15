@@ -62,7 +62,7 @@
 	}
 	public void ButtonClick(MouseEventArgs args)
 	{
-		var choredbConnection = new SQLiteConnection("DataSource = C:\\Users\\jenni\\OneDrive\\Desktop\\JAlbertHomeMaintenanceCapstone\\Files\\UserChoreDB.db;Version=3;");
+		var choredbConnection = new SQLiteConnection("DataSource = Files\\UserChoreDB.db;Version=3;");
 		choredbConnection.Open();
 		SQLiteCommand sqlite_cmd = choredbConnection.CreateCommand();
 		sqlite_cmd.CommandText = "SELECT * FROM MyChores";
